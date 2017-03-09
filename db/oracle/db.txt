@@ -1,0 +1,10 @@
+创建用户smm_rc,导入开发库数据到smm_rc
+	--在dos窗口界面执行
+	sqlplus / as sysdba;
+	--create tablespace smm_rc datafile 'C:\oraclexe\app\oracle\oradata\XE\smm_rc.dbf' size 512M autoextend on next 64M;
+	--drop user caipiao cascade;
+	create user caipiao identified by newstar;
+	grant dba,connect to caipiao;
+	
+	--在dos窗口界面执行
+	imp caipiao/newstar file=d:\cp20170226.dmp full=y
