@@ -7,6 +7,7 @@ public class CreRandom {
 	public String szAll="0123456789";
 	/**
 	 * 生成7个随机数（0-9）
+	 * 使用数字生成
 	 */
 	public String creRand(){
 		String szResult = "";
@@ -19,6 +20,12 @@ public class CreRandom {
 		return szResult;
 	}
 	
+	/**
+	 * 生成除去传入参数的随机数
+	 * @param szEx1
+	 * @param szEx2
+	 * @return
+	 */
 	public String creRand(String szEx1,String szEx2){
 		String szResult = "",szRand="";
 		szRand = new String(szAll);
@@ -59,6 +66,14 @@ public class CreRandom {
 		return list;
 	}
 	
+	/**
+	 * 可用数字
+	 * @param szEx1 不包含参数1
+	 * @param szEx2 不包含参数2
+	 * @param szIn1 包含参数1
+	 * @param szIn2 包含参数2
+	 * @return
+	 */
 	public ArrayList availNum(String szEx1,String szEx2,String szIn1,String szIn2){
 		ArrayList list = new ArrayList();
 		QxcnoDao qxcnoDao = new QxcnoDao();
