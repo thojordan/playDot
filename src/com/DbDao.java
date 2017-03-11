@@ -26,6 +26,9 @@ public class DbDao {
         this.getConnection();   
     }   
        
+    /**
+     * 获得连接
+     */
     public void getConnection(){   
         try{   
             Class.forName("oracle.jdbc.driver.OracleDriver").newInstance();    
