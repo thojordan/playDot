@@ -66,14 +66,6 @@ public class CreRandom {
 		return list;
 	}
 	
-	/**
-	 * 可用数字
-	 * @param szEx1 不包含参数1
-	 * @param szEx2 不包含参数2
-	 * @param szIn1 包含参数1
-	 * @param szIn2 包含参数2
-	 * @return
-	 */
 	public ArrayList availNum(String szEx1,String szEx2,String szIn1,String szIn2){
 		ArrayList list = new ArrayList();
 		QxcnoDao qxcnoDao = new QxcnoDao();
