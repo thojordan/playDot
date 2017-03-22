@@ -1,0 +1,4 @@
+1.choose 3 or 4 from 5 numbers
+2.the first is not 3
+3.the second is not 9
+4.the forth is not equal the sixth
