@@ -6,12 +6,12 @@ public class CreRandom {
 	
 	public String szAll="0123456789";
 	/**
-	 * Éú³É7¸öËæ»úÊý£¨0-9£©
-	 * Ê¹ÓÃÊý×ÖÉú³É
+	 * ï¿½ï¿½ï¿½7ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½0-9ï¿½ï¿½
+	 * Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 */
 	public String creRand(){
 		String szResult = "";
-		java.util.Random random=new java.util.Random();// ¶¨ÒåËæ»úÀà
+		java.util.Random random=new java.util.Random();// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		int iRand;
 		for(int i=0;i<7;i++){
 			iRand = random.nextInt(10);
@@ -21,7 +21,7 @@ public class CreRandom {
 	}
 	
 	/**
-	 * Éú³É³ýÈ¥´«Èë²ÎÊýµÄËæ»úÊý
+	 * ï¿½ï¿½É³ï¿½È¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 * @param szEx1
 	 * @param szEx2
 	 * @return
@@ -37,7 +37,7 @@ public class CreRandom {
 		    szRand = szRand.replace(szEx2, "");
 		}
 		iLen = szRand.length();
-		java.util.Random random=new java.util.Random();// ¶¨ÒåËæ»úÀà
+		java.util.Random random=new java.util.Random();// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		int iRand;
 		for(int i=0;i<7;i++){
 			iRand = random.nextInt(iLen);
@@ -71,8 +71,14 @@ public class CreRandom {
 		QxcnoDao qxcnoDao = new QxcnoDao();
 		QxchisDao qxchisDao = new QxchisDao();
 		int iNo,iHis,iEx1,iEx2,iIn1,iIn2,iList;
+		int iCnt=0;
 		while(list.size()<6){
 			String szRand = creRand(szEx1,szEx2);
+			iCnt++;
+			if(iCnt>100){
+				//flow out
+				break;
+			}
 			if(szIn1!=null &&!szIn1.equalsIgnoreCase("")){
 				iIn1 = szRand.indexOf(szIn1);
 				if(iIn1<0){
