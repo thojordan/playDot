@@ -26,8 +26,7 @@ input{
 			    </thead>
 			    <tr>
 			    	<td>exclude1:<input type="text" name="exclude1" value="${exclude1}">
-			    		<input type="text" name="exclude2" value="${exclude2}">
-			    		<button onclick="submit()">search</button>
+			    		<input type="text" name="exclude2" value="${exclude2}">			    		
 			    	</td>
 		    	</tr>
 		    	<tr>
@@ -53,6 +52,7 @@ input{
 			    		<input type="text" name="pos2" value="${pos2}">	
 			    	</td>
 			    <tr>
+			    <tr><td align="center"><button onclick="submit()"><b>Search</b></button></td>
 			    <tr><td><b>Result</b></td>
 			    </tr>
 			    </tr>

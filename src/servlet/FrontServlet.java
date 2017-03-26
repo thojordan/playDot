@@ -40,7 +40,20 @@ public class FrontServlet extends HttpServlet {
 		String szEx2 = request.getParameter("exclude2");
 		String szIn1 =request.getParameter("include1");
 		String szIn2 =request.getParameter("include2");
-		ArrayList list = cr.availNum(szEx1,szEx2,szIn1,szIn2);
+		String szIn3 =request.getParameter("include3");
+		String szIn4 =request.getParameter("include4");
+		String szIn5 =request.getParameter("include5");
+		String szHow =request.getParameter("how");
+		String szNo1 =request.getParameter("no1");
+		String szNo2 =request.getParameter("no2");
+		String szNo3 =request.getParameter("no3");
+		String szNo4 =request.getParameter("no4");
+		String szNo5 =request.getParameter("no5");
+		String szNo6 =request.getParameter("no6");
+		String szNo7 =request.getParameter("no7");
+		String szPos1 =request.getParameter("pos1");
+		String szPos2 =request.getParameter("pos2");
+		ArrayList list = cr.availNum(szEx1,szEx2,szIn1,szIn2,szIn3,szIn4,szIn5,szHow,szNo1,szNo2,szNo3,szNo4,szNo5,szNo6,szNo7,szPos1,szPos2);
 		
 		request.setAttribute("qxcrand", list);
 		request.setAttribute("exclude1", szEx1);
