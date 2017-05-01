@@ -60,6 +60,19 @@ public class FrontServlet extends HttpServlet {
 		request.setAttribute("exclude2", szEx2);
 		request.setAttribute("include1", szIn1);
 		request.setAttribute("include2", szIn2);
+		request.setAttribute("include3", szIn3);
+		request.setAttribute("include4", szIn4);
+		request.setAttribute("include5", szIn5);
+		request.setAttribute("how", szHow);
+		request.setAttribute("no1", szNo1);
+		request.setAttribute("no2", szNo2);
+		request.setAttribute("no3", szNo3);
+		request.setAttribute("no4", szNo4);
+		request.setAttribute("no5", szNo5);
+		request.setAttribute("no6", szNo6);
+		request.setAttribute("no7", szNo7);
+		request.setAttribute("pos1", szPos1);
+		request.setAttribute("pos2", szPos2);
 		//不可能的数据
 		String page = null;
         page = request.getParameter("page");
