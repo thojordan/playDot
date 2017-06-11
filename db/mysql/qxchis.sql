@@ -2004,6 +2004,30 @@ Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17043','2255787',36,nul
 Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17044','9687189',48,null,null);
 Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17045','1940058',27,null,null);
 Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17046','2516529',30,null,null);
+commit;
+Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17047','3903754',31	,null,null);
+Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17048','6067729',37	,null,null);
+Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17049','8081598',39	,null,null);
+Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17050','2536308',27	,null,null);
+Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17051','0136495',28	,null,null);
+Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17052','3351885',33	,null,null);
+Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17053','6666458',41	,null,null);
+Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17054','2639801',29	,null,null);
+Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17055','2451944',29	,null,null);
+Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17056','1814014',19	,null,null);
+Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17057','9951042',30	,null,null);
+Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17058','5054414',23	,null,null);
+Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17059','9825255',36	,null,null);
+Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17060','1776345',33	,null,null);
+Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17061','6567807',39	,null,null);
+Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17062','4961525',32	,null,null);
+Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17063','9078693',42	,null,null);
+Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17064','5550082',25	,null,null);
+Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17065','6609887',44	,null,null);
+Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17066','4560789',39	,null,null);
+Insert into QXCHIS (QS,JIEGUO,HE,BIAOJI,BEIZHU) values ('17067','0030793',22	,null,null);
+commit;
+
 --------------------------------------------------------
 --  DDL for Index PK_QXCHIS
 --------------------------------------------------------
